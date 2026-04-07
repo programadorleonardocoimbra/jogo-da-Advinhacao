@@ -26,7 +26,9 @@ public class contagemDeNumerosNaturais2 {
             if (name.equals("Lucia")) {
                 System.out.println("---------------------------------------------------------------");
                 System.out.println("Você acertou!");
-                System.out.println("---------------------------------------------------------------"); break;
+                System.out.println("---------------------------------------------------------------");
+                System.out.println("Fim de Jogo");
+                break;
             }
 
             if (!name.equalsIgnoreCase("Sara" + "Leandra" + "Michele" + "Bruna")) {
